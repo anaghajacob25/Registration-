@@ -54,6 +54,12 @@ function App() {
 
    if(Object.keys(validateError).length===0){
     toast.success('Registered Successfully')
+    setRegister({
+      Username: '',
+      Email: '',
+      Password: '',
+      ConfirmPassword: '',
+    });
    }
 
   }
